@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mkdocs-live189"
+version = "0.1.0"
+description = ""
+authors = ["edson-github <edson.maxiad@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mkdocs = "^1.5.3"
+pymdown-extensions = "^10.5"
+mkdocs-material = "^9.4.14"
+mkdocs-minify-plugin = "^0.7.1"
+mkdocs-windmill = "^1.0.5"
+pygments = "^2.17.2" 
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
